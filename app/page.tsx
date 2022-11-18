@@ -10,7 +10,7 @@ export default async function Home() {
     return (
         <div className="w-full max-w-5xl p-8 mx-auto text-center">
             <div className="relative flex flex-row items-center justify-center mb-4">
-                <h1 className="mb-4 text-3xl">Users</h1>
+                <h1 className="mb-4">Users</h1>
                 <label
                     htmlFor="add-user-modal"
                     className="absolute right-0 btn bg-secondary text-base-100 hover:text-secondary"
