@@ -2,11 +2,7 @@ import './globals.css';
 import Navigation from './navigation';
 import QueryWrapper from './queryWrapper';
 
-export default function RootLayout({
-    children,
-}: {
-    children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en" data-theme="dracula">
             {/*
@@ -15,7 +11,7 @@ export default function RootLayout({
       */}
             <head />
             <body>
-                <div className="w-full prone">
+                <div className="w-full prose">
                     <QueryWrapper>
                         <Navigation />
                         {children}
