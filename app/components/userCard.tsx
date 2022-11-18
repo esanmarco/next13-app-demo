@@ -12,7 +12,7 @@ export default function UserCard({ name, company, id }: UserCardProps) {
                 <div className="justify-end card-actions">
                     <Link
                         href={`/users/${id}`}
-                        className="w-full btn btn-sm btn-info"
+                        className="w-full btn btn-sm btn-primary"
                     >
                         Learn more
                     </Link>

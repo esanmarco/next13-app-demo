@@ -7,7 +7,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang="en" data-theme="dracula">
             <head />
             <body>
-                <div className="w-full prose">
+                <div className="w-full max-w-full prose">
                     <QueryWrapper>
                         <Navigation />
                         {children}
